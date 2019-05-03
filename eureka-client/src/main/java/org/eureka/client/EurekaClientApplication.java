@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @RefreshScope
-public class ConfigClientApplication {
+public class EurekaClientApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigClientApplication.class, args);
+		SpringApplication.run(EurekaClientApplication.class, args);
 	}
 
 	@Value("${server.port}")

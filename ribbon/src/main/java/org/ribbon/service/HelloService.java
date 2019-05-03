@@ -14,7 +14,7 @@ public class HelloService {
 
 	@HystrixCommand(fallbackMethod="getHelloContentError")
 	public String getHelloContent() {
-		return restTemplate.getForObject("http://CONFIG-CLIENT/", String.class);
+		return restTemplate.getForObject("http://eureka-client/", String.class);
 	}
 	
 	public String getHelloContentError(){
