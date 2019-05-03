@@ -20,10 +20,10 @@
 		<module>eureka-client</module>
 		<module>config-server</module>
 		<module>ribbon</module>
-		<module>eureka-client-2</module>
 		<module>feign</module>
 		<module>zuul</module>
-  </modules>
+		<module>turbine</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -101,7 +101,7 @@
 	</pluginRepositories>
 
 	<build>
-		<finalName>springclouddemo-${project.version}</finalName>
+		<!-- <finalName>springclouddemo-${project.version}</finalName> -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
