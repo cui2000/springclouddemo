@@ -3,6 +3,7 @@
 .settings
 logs
 .gz
+target
 
 # Compiled class file
 *.class
