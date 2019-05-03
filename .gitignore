@@ -2,6 +2,7 @@
 .project
 .settings
 logs
+.gz
 
 # Compiled class file
 *.class
