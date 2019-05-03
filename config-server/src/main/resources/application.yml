@@ -6,8 +6,8 @@ eureka:
       defaultZone: http://47.75.250.166:8761/eureka/
   instance:
     hostname: 47.75.250.166
-    instance-id: 47.75.250.166:8761:8888
-    prefer-ip-address: true
+    instance-id: config
+    #prefer-ip-address: true
       
 server:
   port: 8888
