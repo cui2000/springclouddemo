@@ -2,7 +2,8 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://47.75.250.166:8761/eureka/
 spring:
   application:
     name: feign
@@ -22,9 +23,4 @@ feign:
     enabled: true
   hystrix:
     enabled: true
-turbine:
-    appConfig: feign
-    aggregator:
-        clusterConfig: default
-    clusterNameExpression: new String("default")
     
