@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @RestController
-@RefreshScope
+@RefreshScope //开启refresh机制
 public class EurekaClientApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaClientApplication.class, args);
