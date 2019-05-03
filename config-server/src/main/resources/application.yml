@@ -5,7 +5,7 @@ eureka:
       #defaultZone: http://localhost:8761/eureka/
       defaultZone: http://47.75.250.166:8761/eureka/
   instance:
-    hostname: 47.75.250.166:8761
+    hostname: 47.75.250.166
     instance-id: 47.75.250.166:8761:8888
     prefer-ip-address: true
       
